@@ -56,16 +56,18 @@ body {
     font-size: 16px;    
     border: none;
     outline: none;
-    color: white;
     padding: 14px 16px;
     background-color: inherit;
     font: inherit;
     margin: 0;
+    color: inherit;
+}
+.menu .dropdown:hover{
+    background-color: #555;
+    color: white;   
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-    background-color: red;
-}
+
 
 .dropdown-content {
     display: none;
